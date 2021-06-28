@@ -16,6 +16,7 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family: 'Lato', sans-serif;
+    background-color: var(--bg);
 }
 
 .container {
@@ -28,6 +29,7 @@ h1 {
     margin: 0;
     color: #2e75cc;
     text-align: center;
+    margin: 0;
 }
 
 h3 {
@@ -89,6 +91,12 @@ input[type='number'] {
     padding: 10px;
     width: 100%;
     border-radius: 0.2cm
+}
+
+input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
 }
 
 .btn {
